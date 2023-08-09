@@ -1,16 +1,22 @@
 # Solace
+NLC application to create and manage email footers and newsletters with ease.
 
-## Installation:
+## Installation
+##### If you do not have, then install globally:
+- `node`
+- `poetry`
+- `pnpm`
 
-```bash
-# Clone repository:
-git clone <github-repo>.git
-
-# Install _node_ and _poetry_ locally
-
-# Create python shell with poetry
+##### Create python shell with poetry
 poetry shell
 
-# This command installs and runs both front-end and back-end environment:
-pnpm dev
-```
+## Use these commands to install & run both front-end and back-end environment
+`poetry install --no-root`
+`pnpm install`
+`pnpm dev`
+
+## Contributing
+- [Commits naming convention](https://www.conventionalcommits.org/en/v1.0.0/)
+- We are using `@changesets/cli` to make semver easier. before every PR you should also update the changelog by using `pnpm changeset` command.
+
+## Roadmap
